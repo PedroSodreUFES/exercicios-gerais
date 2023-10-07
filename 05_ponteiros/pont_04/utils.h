@@ -1,5 +1,6 @@
 #ifndef _UTILS_H_
 #define _UTILS_H_
+#include <stdio.h>
 
 /**
  * @brief Lê uma sequência de inteiros da entrada padrão e os armazena em um array.
