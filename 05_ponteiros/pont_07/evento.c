@@ -55,7 +55,7 @@ void trocarDataEvento(Evento* eventos, int* numEventos)
 
 void trocarIndicesEventos(Evento* eventos, int* indiceA, int* indiceB, int* numEventos)
 {
-    if(*indiceA>=*numEventos || *indiceB>=*numEventos)
+    if(*indiceA>=*numEventos || *indiceB>=*numEventos ||*numEventos<2 || *indiceA<0 || *indiceB<0)
     {
         printf("Indices invalidos!\n");
         return;
