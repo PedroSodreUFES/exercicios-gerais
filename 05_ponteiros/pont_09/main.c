@@ -12,6 +12,11 @@ int main()
         galera[i] = CriaPessoa();
         LePessoa(galera+i);
     }
-    printf("%s", galera[0].nome);
+    scanf("%d%*c", &n);
+    while(n)
+    {
+        AssociaFamiliasGruposPessoas(galera);
+        n--;
+    }
     return 0;
 }
