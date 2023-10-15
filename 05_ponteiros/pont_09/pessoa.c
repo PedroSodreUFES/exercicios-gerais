@@ -65,8 +65,4 @@ void AssociaFamiliasGruposPessoas(tPessoa *pessoas)
     {
         pessoas[filho].mae=pessoas+mae;
     }
-    if(VerificaSeTemPaisPessoa(&pessoas[filho]))
-    {
-        ImprimePessoa(&pessoas[filho]);
-    }
 }
