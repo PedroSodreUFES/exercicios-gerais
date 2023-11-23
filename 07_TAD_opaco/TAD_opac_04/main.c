@@ -3,16 +3,11 @@
 #include <stdlib.h>
 #include <string.h>
 
-struct Aluno{
-    char *nome;
-    int matricula, n1, n2, n3;
-};
-
 int main()
 {
     int nalunos, i, j;
     scanf("%d%*c", &nalunos);
-    tAluno **lista = (tAluno**)malloc(nalunos * sizeof(tAluno));
+    tAluno **lista = (tAluno**)malloc(nalunos * sizeof(tAluno*));
     if(lista==NULL)
     {
         printf("NAO ALOCOU NADA\n");
