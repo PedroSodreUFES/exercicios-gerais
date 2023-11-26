@@ -43,7 +43,7 @@ void DestroiGenerico(tGeneric* gen)
 
 void LeGenerico(tGeneric* gen)
 {
-    printf("Digite o vetor:\n");
+    printf("\nDigite o vetor:\n");
     if(gen->tipo==FLOAT)
     {
         int i;
