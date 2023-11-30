@@ -1,0 +1,2 @@
+cc1: fatal error: Resultados/Pedro/numcomplexo/main.c: Arquivo ou diretório inexistente
+compilation terminated.

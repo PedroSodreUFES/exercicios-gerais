@@ -1,0 +1,2 @@
+cc1: fatal error: Resultados/Pedro/main/main.c: Arquivo ou diretório inexistente
+compilation terminated.
