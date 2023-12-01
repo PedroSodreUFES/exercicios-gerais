@@ -1,0 +1,5 @@
+Resultados/Pedro/completo/main.c: In function ‘main’:
+Resultados/Pedro/completo/main.c:21:17: warning: implicit declaration of function ‘VectorConstruct’ [-Wimplicit-function-declaration]
+   21 |     Vector *v = VectorConstruct();
+      |                 ^~~~~~~~~~~~~~~
+Resultados/Pedro/completo/main.c:21:17: warning: initialization of ‘Vector *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
