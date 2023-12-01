@@ -1,0 +1,6 @@
+cc1: fatal error: Resultados/Pedro/main/agencia.c: Arquivo ou diretório inexistente
+compilation terminated.
+cc1: fatal error: Resultados/Pedro/main/banco.c: Arquivo ou diretório inexistente
+compilation terminated.
+cc1: fatal error: Resultados/Pedro/main/main.c: Arquivo ou diretório inexistente
+compilation terminated.

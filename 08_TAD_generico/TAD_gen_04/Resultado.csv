@@ -1,0 +1,2 @@
+Nome,Arquivos,Compilação,Linkagem,Resultado agencia,Valgrind agencia,Resultado banco,Valgrind banco,Resultado conta,Valgrind conta,Resultado main,Valgrind main,Resultado vector,Valgrind vector,Resultado completo,Valgrind completo,Média
+Pedro,4.44,4.00,3.33,0.00,0.00,0.00,0.00,10.00,10.00,0.00,0.00,10.00,10.00,0.00,0.00,3.45

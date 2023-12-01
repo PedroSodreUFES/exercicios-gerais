@@ -1,0 +1,8 @@
+/usr/bin/ld: Resultados/Pedro/banco/main.o: na função "main":
+main.c:(.text+0x21): referência não definida para "CriaBanco"
+/usr/bin/ld: main.c:(.text+0x31): referência não definida para "LeBanco"
+/usr/bin/ld: main.c:(.text+0x81): referência não definida para "AdicionaAgencia"
+/usr/bin/ld: main.c:(.text+0xd5): referência não definida para "InsereContaBanco"
+/usr/bin/ld: main.c:(.text+0xf4): referência não definida para "ImprimeRelatorioBanco"
+/usr/bin/ld: main.c:(.text+0x100): referência não definida para "DestroiBanco"
+collect2: error: ld returned 1 exit status
