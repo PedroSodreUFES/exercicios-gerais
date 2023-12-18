@@ -1,0 +1,16 @@
+Resultados/Pedro/vector/estabelecimento.c: In function ‘DestroiEstabelecimento’:
+Resultados/Pedro/vector/estabelecimento.c:23:39: warning: passing argument 2 of ‘VectorDestroy’ from incompatible pointer type [-Wincompatible-pointer-types]
+   23 |     VectorDestroy(estabelecimento->v, DestroiProduto);
+      |                                       ^~~~~~~~~~~~~~
+      |                                       |
+      |                                       void (*)(tProduto *) {aka void (*)(struct Produto *)}
+In file included from Resultados/Pedro/vector/estabelecimento.c:2:
+Resultados/Pedro/vector/vector.h:46:38: note: expected ‘void (*)(void *)’ but argument is of type ‘void (*)(tProduto *)’ {aka ‘void (*)(struct Produto *)’}
+   46 | void VectorDestroy(Vector *v, void (*destroy)(DataType));
+      |                               ~~~~~~~^~~~~~~~~~~~~~~~~~
+Resultados/Pedro/vector/estabelecimento.c:22:15: warning: unused variable ‘p’ [-Wunused-variable]
+   22 |     tProduto *p;
+      |               ^
+Resultados/Pedro/vector/estabelecimento.c:21:9: warning: unused variable ‘i’ [-Wunused-variable]
+   21 |     int i;
+      |         ^
