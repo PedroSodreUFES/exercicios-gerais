@@ -1,0 +1,15 @@
+==119377== Memcheck, a memory error detector
+==119377== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==119377== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==119377== Command: Resultados/Pedro/completo/prog Resultados/Pedro/completo/Casos/3
+==119377== Parent PID: 119376
+==119377== 
+==119377== 
+==119377== HEAP SUMMARY:
+==119377==     in use at exit: 0 bytes in 0 blocks
+==119377==   total heap usage: 8 allocs, 8 frees, 576,848 bytes allocated
+==119377== 
+==119377== All heap blocks were freed -- no leaks are possible
+==119377== 
+==119377== For lists of detected and suppressed errors, rerun with: -s
+==119377== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
