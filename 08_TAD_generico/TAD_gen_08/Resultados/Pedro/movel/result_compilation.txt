@@ -1,0 +1,17 @@
+Resultados/Pedro/movel/fila.c: In function ‘FilaDestroy’:
+Resultados/Pedro/movel/fila.c:24:13: warning: unused variable ‘m’ [-Wunused-variable]
+   24 |     tMovel *m = NULL;
+      |             ^
+Resultados/Pedro/movel/main.c: In function ‘main’:
+Resultados/Pedro/movel/main.c:30:20: warning: passing argument 2 of ‘FilaDestroy’ from incompatible pointer type [-Wincompatible-pointer-types]
+   30 |     FilaDestroy(f, DestroiMovel);
+      |                    ^~~~~~~~~~~~
+      |                    |
+      |                    void (*)(tMovel *) {aka void (*)(struct Movel *)}
+In file included from Resultados/Pedro/movel/main.c:1:
+Resultados/Pedro/movel/fila.h:21:34: note: expected ‘void (*)(void *)’ but argument is of type ‘void (*)(tMovel *)’ {aka ‘void (*)(struct Movel *)’}
+   21 | void FilaDestroy(Fila *f, void (*destroy)(DataType));
+      |                           ~~~~~~~^~~~~~~~~~~~~~~~~~
+Resultados/Pedro/movel/main.c:13:12: warning: unused variable ‘i’ [-Wunused-variable]
+   13 |     int d, i;
+      |            ^
