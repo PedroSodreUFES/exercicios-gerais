@@ -1,0 +1,4 @@
+Resultados/Pedro/imagem/histograma.c: In function ‘CalcularHistograma’:
+Resultados/Pedro/imagem/histograma.c:38:35: warning: unused variable ‘z’ [-Wunused-variable]
+   38 |     int tamanhointervalo, i, j=0, z=0, soma=0;
+      |                                   ^
