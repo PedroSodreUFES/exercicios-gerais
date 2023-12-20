@@ -4,9 +4,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-struct complexo{
-    float imag, real;
-};
+
 
 int main()
 {
@@ -33,51 +31,25 @@ int main()
         }    
         else if(opcao==4)
         {
-            numBytesElem=sizeof(tNumComplexo);
+            numBytesElem=RetornaNumBytesComplexo();
         }
         else
         {
             continue;
         }
 
-        //faz a matriz
-        tMatrizGenerica *mat = CriaMatrizGenerica(linhas, colunas, numBytesElem);
-        //Le matriz
-        if(opcao==0)
-        {
-            numBytesElem=sizeof(int);
-        }
-        else if(opcao==1)
-        {
-            numBytesElem=sizeof(float);
-        }
-        else if(opcao==2)
-        {
-            numBytesElem=sizeof(double);
-        }
-        else if(opcao==3)
-        {
-            numBytesElem=sizeof(char);
-        }    
-        else if(opcao==4)
-        {
-            numBytesElem=sizeof(tNumComplexo);
-        }
-        else
-        {
-            continue;
-        }
-        //operacoes
+        
+        tMatrizGenerica *mat = CriaMatrizGenerica(linhas, colunas, numBytesElem); 
         while(1)
         {
             scanf("%d", &opcao);
             if(opcao==1)
             {
-
+                ImprimirMatrizGenerica(mat, )
             }
             else if(opcao==2)
             {
-
+                ConverteTipoMatriz(mat, RetornaNumBytesComplexo(), CriaNumComplexo())
             }
             else if(opcao==3)
             {

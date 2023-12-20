@@ -1,15 +1,15 @@
-==122819== Memcheck, a memory error detector
-==122819== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==122819== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
-==122819== Command: Resultados/Pedro/numcomplexo/prog Resultados/Pedro/numcomplexo/Casos/9
-==122819== Parent PID: 122818
-==122819== 
-==122819== 
-==122819== HEAP SUMMARY:
-==122819==     in use at exit: 0 bytes in 0 blocks
-==122819==   total heap usage: 6 allocs, 6 frees, 8,288 bytes allocated
-==122819== 
-==122819== All heap blocks were freed -- no leaks are possible
-==122819== 
-==122819== For lists of detected and suppressed errors, rerun with: -s
-==122819== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==36116== Memcheck, a memory error detector
+==36116== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==36116== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==36116== Command: Resultados/Pedro/numcomplexo/prog Resultados/Pedro/numcomplexo/Casos/9
+==36116== Parent PID: 36115
+==36116== 
+==36116== 
+==36116== HEAP SUMMARY:
+==36116==     in use at exit: 0 bytes in 0 blocks
+==36116==   total heap usage: 6 allocs, 6 frees, 8,288 bytes allocated
+==36116== 
+==36116== All heap blocks were freed -- no leaks are possible
+==36116== 
+==36116== For lists of detected and suppressed errors, rerun with: -s
+==36116== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
